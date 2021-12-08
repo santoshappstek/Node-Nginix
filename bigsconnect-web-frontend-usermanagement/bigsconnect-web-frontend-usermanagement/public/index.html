@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BigS</title>
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet"
+         href="https://unpkg.com/purecss-components@0.0.12/dist/pure-components.css"
+         integrity="sha384-3vxDvOU9lXU+bcgTkQNhnflfhRt/EFEGLtd3jQn8vQRGGQlpBX9VOq4oIufzLOO9"
+         crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"> 
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/AdminLTE.css">
+    <link rel="stylesheet" href="/css/_all-skins.min.css">
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div id="root" class="wrapper">
+       <script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({
+        placement : 'top',
+        html : true,
+        title : 'User Info <a href="#" class="close" data-dismiss="alert">&times;</a>',
+        content : '<div class="media"><img src="/examples/images/avatar-tiny.jpg" class="mr-3" alt="Sample Image"><div class="media-body"><h5 class="media-heading">Jhon Carter</h5><p>Excellent Bootstrap popover! I really love it.</p></div></div>'
+    });
+    $(document).on("click", ".popover .close" , function(){
+        $(this).parents(".popover").popover('hide');
+    });
+});
+</script>
+    </div>
+
+  
+
+    <!-- <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <script src="/js/adminlte.min.js"></script>
+    <script src="/js/jquery.slimscroll.min.js"></script>
+    <script src="https://use.fontawesome.com/581d5d54d2.js"></script>
+  </body>
+</html>
